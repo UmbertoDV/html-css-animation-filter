@@ -18,11 +18,15 @@
 .ex-2-square:active{
     width: 100%;
 }
-
+/* Animation ES3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 2s ease;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
 }
 .ex-4-square {
     width: 100px;
