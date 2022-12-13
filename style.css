@@ -92,7 +92,18 @@
 /* Animation ES10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: loading 3s linear infinite;
 }
+@keyframes loading {
+0% { 
+    transform: rotate(0); 
+}
+100% { 
+    transform: rotate(360deg);
+}
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
