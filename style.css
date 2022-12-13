@@ -70,10 +70,26 @@
     transition: filter 2s ease;
     filter: blur(5px) grayscale(80%);
 }
+/* Animation ES8 */
+.ex-8-img:hover{
+    transition: all 2s ease;
+    filter: brightness(3) grayscale(80%);
+    border-radius: 20px;
+}
+/* Animation ES9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover{
+    transition: all 2s ease;
+    filter: brightness(3) grayscale(80%);
+    border-radius: 20px;
+    margin: 0;
+    width: 500px;
+}
+
+/* Animation ES10 */
 .ex-10-icon {
     font-size: 60px;
 }
