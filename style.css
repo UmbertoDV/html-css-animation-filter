@@ -38,13 +38,26 @@
 .ex-4-square:hover {
     opacity: 0;
 }
-
+/* Animation ES5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    transition: all 2s ease;
+}
+.ex-5-square:active {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    transition: all 2s ease;
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
