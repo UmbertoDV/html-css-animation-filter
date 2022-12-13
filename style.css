@@ -61,7 +61,11 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/* Animation ES6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* Animation ES7 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
