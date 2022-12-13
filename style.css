@@ -66,6 +66,10 @@
     filter: grayscale(1);
 }
 /* Animation ES7 */
+.ex-7-img:hover{
+    transition: filter 2s ease;
+    filter: blur(5px) grayscale(80%);
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
